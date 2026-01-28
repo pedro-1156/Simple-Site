@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center; /* centro horizontal */
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f7af86, #f27272);
+}
+
+* {
+    font-family: 'Montserrat', cursive;
+}
+
+/* SEU PERFIL */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centraliza tudo */
+    margin-top: 50px; /* sobe o perfil */
+    gap: 10px;
+    background: #e0c49f;
+    border-radius: 15px;
+    box-shadow: 7.5px 7.5px 7.5px 1.5px rgba(0, 0, 0, 0.56);
+    overflow: hidden;
+}
+.icons {
+    display: flex;        
+    flex-direction: row;  
+    gap: 100px;
+}
+
+.icons a {
+    color: #1a1919ab;
+    font-size: xx-large
+}
+img {
+  height: 160px;   /* aumenta o ícone */
+  width: 160px;
+  background: rgba(0, 0, 0, 0.116);
+  padding: 5px;
+  border-radius: 50%; /* deixa redondo */
+}
+#texto {
+    font-size: small;
+    height: 90px;
+    text-indent: 4;
+    letter-spacing: 0px
+}
+#linkedin {
+    transition: all 0.3s ease;
+}
+#linkedin:hover {
+    transform: translateY(-5px)
+}
+
+#mala {
+    transition: all 0.3s ease;
+}
+#mala:hover {
+    transform: translateY(-5px)
+}
+
+#github {
+    transition: all 0.3s ease;
+}
+#github:hover {
+    transform: translateY(-5px)
+}
