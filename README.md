@@ -10,4 +10,4 @@ I'm learning programming and want to be a backend or full-stack developer 🚀
 - Google Fonts (Montserrat)
 
 ## 🔗 Access the website
-👉 https://pedro1156.github.io/my-website/
+👉 https://pedro1156.github.io/Simple-Site/
