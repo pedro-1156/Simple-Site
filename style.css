@@ -30,7 +30,8 @@ body {
 
 .icons a {
     color: #1a1919ab;
-    font-size: xx-large
+    font-size: xx-large;
+    cursor: pointer;
 }
 img {
   height: 160px;   /* aumenta o ícone */
