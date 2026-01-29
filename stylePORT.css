@@ -23,7 +23,8 @@ body {
     width: 300px;
     color: black;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 #seta:hover {
-    transform: translateY(-5px)
+    transform: translateY(-5px);
 }
